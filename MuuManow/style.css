@@ -1,0 +1,67 @@
+body {overflow-x: hidden;}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    color:red;
+}
+a:active{
+    color: red ;
+}
+.home-img
+{
+    height: 450px;
+    width: 450px;
+}
+.rotate {
+    animation: rotation 200s infinite linear;
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+.about1
+{
+    height: 650px;
+    width: 500px;
+}
+.about2
+{
+    height: 330px;
+    width: 500px;
+}
+.menu-img
+{
+    height: 250px;
+    width: 250px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.icon2{
+    height: 100px;
+    width: 100px;
+}
+.fonty
+{
+    font-family: cursive;
+}
+.book,.book:hover,.book:active{
+    color: white;
+}
+
+.GALLERY:hover
+{
+    border: 2px solid red;
+}
+.c-img{
+    border: 2px solid white;
+}
